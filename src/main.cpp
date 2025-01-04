@@ -23,13 +23,43 @@ int main()
     Dog("Scooby-Doo", "Great Dane", DogSize::ExtraBig, false)
   };
 
-  for(Dog dog : dogs){
+  for(const Dog& dog : dogs){
     cout << dog.getName() << " is a ";
     if(!dog.isRegistered())
       cout << "un";
     cout << "registered " << dog.getStringSize() << " " << dog.getBreed() << " dog." << endl;
   }
 
+  cout << endl << "*** Unregistering all dogs***" << endl;
+  for(Dog& dog : dogs){
+    dog.setIsRegistered(false);
+  }
+  
+  cout << endl;
+
+  for(Dog& dog : dogs){
+    cout << dog.getName() << " is a ";
+    if(!dog.isRegistered())
+      cout << "un";
+    cout << "registered " << dog.getStringSize() << " " << dog.getBreed() << " dog." << endl;
+  }
+
+  cout << endl << "*** registering all dogs and setting breed to `Askal` ***" << endl;
+  for(Dog& dog : dogs){
+    dog.setIsRegistered(true);
+    dog.setBreed("Askal");
+  }
+
+  cout << endl;
+
+  for(const Dog& dog : dogs){
+    cout << dog.getName() << " is a ";
+    if(!dog.isRegistered())
+      cout << "un";
+    cout << "registered " << dog.getStringSize() << " " << dog.getBreed() << " dog." << endl;
+  }
+
+  cout << endl;
   _pause();
   return EXIT_SUCCESS;
 }

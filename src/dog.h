@@ -33,10 +33,10 @@ public:
             breed(breed){};
 
     /* Accessors */
-    std::string getBreed(){return breed;}
-    bool isRegistered(){return is_registered;}
-    DogSize getSize(){return size;}
-    std::string getStringSize(){
+    std::string getBreed() const {return breed;}
+    bool isRegistered() const {return is_registered;}
+    DogSize getSize() const {return size;}
+    std::string getStringSize() const {
         switch(size){
             case DogSize::ExtraSmall:
                 return "Extra Small";
@@ -60,8 +60,8 @@ public:
     }
 
     /* Setters/Mutators */
-    void setBreed(std::string b){breed = b;}
-    void setIsRegistered(bool r){is_registered = r;}
-    void setSize(DogSize ds){size = ds;}
+    void setBreed(std::string b){this->breed = b;}
+    void setIsRegistered(bool r){this->is_registered = r;}
+    void setSize(DogSize ds){this->size = ds;}
 
 };
