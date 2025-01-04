@@ -1,26 +1,12 @@
-# C++ Programming Language | VS Code
+# AMAOEd ITE7101: Computer Programming
+## Week 11
+### Laboratory Excercise 10
 
-This repository contains a development environment for Visual Studio code to be used by C++ Programming Language of AMA Online Education.
+1.	Write a class that extends the LeggedMammal class from the previous laboratory exercise.  The class will represent a Dog.  Consider the breed, size and is registered.  Initialize all properties of the parent class in the new constructor.  This time, promote the use of accessors and mutators for the new properties.  Instantiate a Dog object in the main function and be able to set the values of the properties of the Dog object using the mutators.  Display all the properties of the Dog object using the accessors.
 
-**Table of Contents**
+2.	Write a class that extends the Person class from the previous laboratory exercise.  The class will represent a Student. Consider the academic program, year in college and enrolled university. Initialize all the properties of the parent class in the new constructor.  This time, promote the use of accessors and mutators for the new properties.  Instantiate a Student object in the main function and be able to set the values of the properties of the Student object using the mutators.  Display all the properties of the Student object using the accessors.
 
-- [Getting Started](docs/getting-started/README.md)
-  - [Dev Container](docs/getting-started/dev-container/README.md)
-    - [Installing the Pre-requisites](docs/getting-started/dev-container/README.md#installing-the-pre-requisites)
-      - [Windows](docs/getting-started/dev-container/windows.md)
-      - [macOS](docs/getting-started/dev-container/osx.md)
-      - [Linux](docs/getting-started/dev-container/linux.md)
-    - [Configuring the Visual Studio Code](docs/getting-started/dev-container/README.md#configuring-the-visual-studio-code)
-    - [Cloning the Git Repository](docs/getting-started/dev-container/README.md#cloning-the-git-repository)
-    - [Opening in Dev Container](docs/getting-started/dev-container/README.md#opening-in-dev-container)
-  - [Bare Metal](docs/getting-started/bare-metal/README.md)
-    - [Installing the Pre-requisites](docs/getting-started/bare-metal/README.md#installing-the-pre-requisites)
-      - [Windows](docs/getting-started/bare-metal/windows.md)
-      - [macOS](docs/getting-started/bare-metal/osx.md)
-      - [Linux](docs/getting-started/bare-metal/linux.md)
-    - [Configuring the Visual Studio Code](docs/getting-started/bare-metal/README.md#configuring-the-visual-studio-code)
-    - [Cloning the Git Repository](docs/getting-started/bare-metal/README.md#cloning-the-git-repository)
-    - [Opening in Bare Metal](docs/getting-started/bare-metal/README.md#opening-in-bare-metal)
-- [Maintenace](docs/maintenance/README.md)
-  - [Updating the CMake Version](docs/maintenance/README.md#updating-the-cmake-version)
-  - [Updating the Dev Container Image](docs/maintenance/README.md#updating-the-dev-container-image)
+## Previous created classes
+>[LeggedMammal Class](https://github.com/jephthah-orobia/AMAOEd-ComProg1-Week10/blob/Lab9-Q1/src/legged-mammal.h)
+
+>[Person Class](https://github.com/jephthah-orobia/AMAOEd-ComProg1-Week10/blob/Lab9-Q2/src/person.h)
