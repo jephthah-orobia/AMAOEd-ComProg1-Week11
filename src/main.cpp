@@ -1,16 +1,6 @@
 /* ****************************************************************
- * @author: <your name here>
- * @app name: <your application name here>
- * @app desc: <describe the purpose of your application here>
- * @history:
- *  - <yyyy/mm/dd> | <name>
- *      -- <description>
- *      -- <description>
- *      -- <description>
- *  - <yyyy/mm/dd> | <name>
- *      -- <description>
- *      -- <description>
- *      -- <description>
+ * @author: Jephthah Orobia
+ * @app name: AMAOEd-Week11-Lab10
  * ****************************************************************/
 
 #include <cstdio>
