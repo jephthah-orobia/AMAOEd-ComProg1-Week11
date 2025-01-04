@@ -48,6 +48,18 @@ public:
 
     // Getter for fur_type
     std::vector<FurTypes> getFurTypes() const { return fur_types; }
+    
+    // Setter for name
+    void setName(std::string n){name =n;}
+
+    // Setter for leg cout
+    void setNumLegs(unsigned short l){num_legs=l;}
+    
+    // Setter for has_tail
+    void setHasTail(bool hasTail){has_tail = hasTail;}
+
+    // Setter for fur_type
+    void setFurTypes(std::vector<FurTypes> ft){fur_types=ft;}
 
     // Method to display information
     void displayInfo() const
