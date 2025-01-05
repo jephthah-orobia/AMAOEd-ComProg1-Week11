@@ -21,27 +21,31 @@ int main()
 
   Student students[] = {ben, nick, maria, juana};
 
-  for(Student& s: students){
+  for (Student &s : students)
+  {
     cout << s.getName() << " is a " << s.getAge() << "-year old "
-         << " " << s.getAcademicProgram() << " " << s.getGender() << " " 
-         << s.getOccupation() << " of "  << s.getUniversity() 
+         << " " << s.getAcademicProgram() << " " << s.getGender() << " "
+         << s.getOccupation() << " of " << s.getUniversity()
          << " who lives in " << s.getAddress() << "." << endl;
   }
 
-  cout << endl << "*** Ben transfered to Makati City ***" << endl;
+  cout << endl
+       << "*** Ben transfered to Makati City ***" << endl;
   ben.setAddress("Makati City");
   ben.setUniversity("Unvisersity of Makati");
 
-  cout << endl << ben.getName() << " is a " << ben.getAge() << "-year old "
-         << " " << ben.getAcademicProgram() << " " << ben.getGender() << " " 
-         << ben.getOccupation() << " of "  << ben.getUniversity() 
-         << " who lives in " << ben.getAddress() << "." << endl;
+  cout << endl
+       << ben.getName() << " is a " << ben.getAge() << "-year old "
+       << " " << ben.getAcademicProgram() << " " << ben.getGender() << " "
+       << ben.getOccupation() << " of " << ben.getUniversity()
+       << " who lives in " << ben.getAddress() << "." << endl;
 
-
-  cout << endl << "*** Juana celebrated her birthday ***" << endl;
+  cout << endl
+       << "*** Juana celebrated her birthday ***" << endl;
   juana.setAge(juana.getAge() + 1);
 
-  cout << endl << juana.getName() << " is now " << juana.getAge() << " years old." << endl;
+  cout << endl
+       << juana.getName() << " is now " << juana.getAge() << " years old." << endl;
   cout << endl;
   _pause();
   return EXIT_SUCCESS;
